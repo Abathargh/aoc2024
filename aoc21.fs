@@ -17,7 +17,7 @@ let is_safe (line: string) =
     let bounded_diff list =
         list
         |> List.map abs
-        |> List.forall (fun e -> e = 1 || e = 2)
+        |> List.forall (fun e -> e = 1 || e = 2 || e = 3)
 
     same_signedness diffs && bounded_diff diffs
 
