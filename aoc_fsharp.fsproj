@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net9.0</TargetFramework>
+    <PublishAot>true</PublishAot>
+    <RuntimeIdentifier>linux-x64</RuntimeIdentifier>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="parse.fs" />
+    <Compile Include="aoc12.fs" />
+    <Content Include="aoc11_in" />
+    <Compile Include="aoc11.fs" />
+    <Content Include="aoc12_in" />
+    <Compile Include="aoc21.fs" />
+    <Content Include="aoc21_in" />
+    <Compile Include="Main.fs" />
+  </ItemGroup>
+
+</Project>
